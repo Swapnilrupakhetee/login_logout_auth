@@ -7,7 +7,7 @@ const Profile =()=> {
     isAuthenticated &&(
        
             <article>
-                {JSON.stringify(user)}
+                
                 {user?.picture && <img src={user.picture} alt={user.name}/>}
                 <h2>{user?.name}</h2>
                 <ul>
